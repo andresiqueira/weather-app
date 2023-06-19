@@ -16,7 +16,6 @@ import Error from "./Error";
 
 export interface FormProps {
   city: string;
-  idade: string;
 }
 
 const schema = yup.object({
